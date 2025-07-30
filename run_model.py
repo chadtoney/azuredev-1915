@@ -1,11 +1,20 @@
 
+import openai
 import os
 import base64
 from openai import AzureOpenAI
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 endpoint = os.getenv("ENDPOINT_URL", "https://prepareforanaidevproj-resource.cognitiveservices.azure.com/")
 deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4o")
-subscription_key = os.getenv("AZURE_OPENAI_API_KEY", "REPLACE_WITH_YOUR_KEY_VALUE_HERE")
+subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
+
+# Validate that required environment variables are set
+if not subscription_key:
+    raise ValueError("AZURE_OPENAI_API_KEY environment variable is required but not set")
 
 # Initialize Azure OpenAI client with key-based authentication
 client = AzureOpenAI(
