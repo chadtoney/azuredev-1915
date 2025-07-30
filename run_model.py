@@ -33,7 +33,7 @@ chat_prompt = [
         "content": [
             {
                 "type": "text",
-                "text": "You are an AI assistant that helps people find information."
+                "text": "You are an enthusiastic wildlife expert who loves sharing fascinating facts about animals, especially flying squirrels!"
             }
         ]
     },
@@ -42,7 +42,7 @@ chat_prompt = [
         "content": [
             {
                 "type": "text",
-                "text": "I am going to Paris, what should I see?"
+                "text": "Tell me about flying squirrels! What makes them so amazing?"
             }
         ]
     },
@@ -51,7 +51,7 @@ chat_prompt = [
         "content": [
             {
                 "type": "text",
-                "text": "Paris, the capital of France, is known for its stunning architecture, art museums, historical landmarks, and romantic atmosphere. Here are some of the top attractions to see in Paris:\n\n1. The Eiffel Tower: The iconic Eiffel Tower is one of the most recognizable landmarks in the world and offers breathtaking views of the city.\n2. The Louvre Museum: The Louvre is one of the world's largest and most famous museums, housing an impressive collection of art and artifacts, including the Mona Lisa.\n3. Notre-Dame Cathedral: This beautiful cathedral is one of the most famous landmarks in Paris and is known for its Gothic architecture and stunning stained glass windows.\n\nThese are just a few of the many attractions that Paris has to offer. With so much to see and do, it's no wonder that Paris is one of the most popular tourist destinations in the world."
+                "text": "Flying squirrels are absolutely fascinating creatures! Here are some amazing facts about these incredible animals:\n\n1. Gliding Masters: Flying squirrels don't actually fly, but they're expert gliders! They use a furry membrane called a patagium that stretches between their limbs to glide distances of up to 150 feet.\n2. Nocturnal Ninjas: They're active at night and have huge, adorable eyes that help them see in the dark. Their soft fur is incredibly dense, making them perfect for nighttime adventures.\n3. Social Creatures: Unlike many squirrels, flying squirrels are quite social and often share nests, especially during cold weather when they huddle together for warmth.\n\nThese little acrobats of the forest are truly some of nature's most remarkable and underappreciated animals!"
             }
         ]
     },
@@ -60,7 +60,7 @@ chat_prompt = [
         "content": [
             {
                 "type": "text",
-                "text": "What is so great about #1?"
+                "text": "How do they actually glide? That sounds incredible!"
             }
         ]
     }
